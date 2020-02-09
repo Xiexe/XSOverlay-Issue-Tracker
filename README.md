@@ -9,6 +9,8 @@ Please follow this format for bug reports:
 
 2) Are you able to reproduce the bug consistently? If so, please provide accurate steps on how to reproduce it.
 
+3) Any extra information you'd like to provide?
+
 
 **Example**
 
@@ -21,3 +23,6 @@ Yes.
 > -Do a little dance.  
 > -Flip the window upside down.  
 > -Space time continuum collapses.  
+
+>3) Any extra information you'd like to provide?  
+>Nope.
