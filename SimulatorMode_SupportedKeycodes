@@ -1,4 +1,4 @@
-/// The list of VirtualKeyCodes supported by XSOverlay's Simulator mode.(see: http://msdn.microsoft.com/en-us/library/ms645540(VS.85).aspx)
+/// The list of VirtualKeyCodes supported by XSOverlay's Simulator mode.(see: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-tvtt/261ddfb0-ce10-4380-9b7a-4b50f482b8ec)
 /// I recommend using CTRL+F to find the key you're looking for. The config file is case sensitive.
 
         /// Left mouse button
