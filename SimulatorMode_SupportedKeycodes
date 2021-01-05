@@ -1,937 +1,234 @@
 /// The list of VirtualKeyCodes supported by XSOverlay's Simulator mode.(see: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-tvtt/261ddfb0-ce10-4380-9b7a-4b50f482b8ec)
 /// I recommend using CTRL+F to find the key you're looking for. The config file is case sensitive.
 
-        /// Left mouse button
-
-        LBUTTON = 0x01,
-
-
-        /// Right mouse button
-
-        RBUTTON = 0x02,
-
-
-        /// Control-break processing
-
-        CANCEL = 0x03,
-
-
-        /// Middle mouse button (three-button mouse) - NOT contiguous with LBUTTON and RBUTTON
-
-        MBUTTON = 0x04,
-
-
-        /// Windows 2000/XP: X1 mouse button - NOT contiguous with LBUTTON and RBUTTON
-
-        XBUTTON1 = 0x05,
-
-
-        /// Windows 2000/XP: X2 mouse button - NOT contiguous with LBUTTON and RBUTTON
-
-        XBUTTON2 = 0x06,
-
-        // 0x07 : Undefined
-
-
-        /// BACKSPACE key
-
-        BACK = 0x08,
-
-
-        /// TAB key
-
-        TAB = 0x09,
-
-        // 0x0A - 0x0B : Reserved
-
-
-        /// CLEAR key
-
-        CLEAR = 0x0C,
-
-
-        /// ENTER key
-
-        RETURN = 0x0D,
-
-        // 0x0E - 0x0F : Undefined
-
-
-        /// SHIFT key
-
-        SHIFT = 0x10,
-
-
-        /// CTRL key
-
-        CONTROL = 0x11,
-
-
-        /// ALT key
-
-        MENU = 0x12,
-        ALT = 0x12,
-
-
-        /// PAUSE key
-
-        PAUSE = 0x13,
-
-
-        /// CAPS LOCK key
-
-        CAPITAL = 0x14,
-
-
-        /// Input Method Editor (IME) Kana mode
-
-        KANA = 0x15,
-
-
-        /// IME Hanguel mode (maintained for compatibility; use HANGUL)
-
-        HANGEUL = 0x15,
-
-
-        /// IME Hangul mode
-
-        HANGUL = 0x15,
-
-        // 0x16 : Undefined
-
-
-        /// IME Junja mode
-
-        JUNJA = 0x17,
-
-
-        /// IME final mode
-
-        FINAL = 0x18,
-
-
-        /// IME Hanja mode
-
-        HANJA = 0x19,
-
-
-        /// IME Kanji mode
-
-        KANJI = 0x19,
-
-        // 0x1A : Undefined
-
-
-        /// ESC key
-
-        ESCAPE = 0x1B,
-
-
-        /// IME convert
-
-        CONVERT = 0x1C,
-
-
-        /// IME nonconvert
-
-        NONCONVERT = 0x1D,
-
-
-        /// IME accept
-
-        ACCEPT = 0x1E,
-
-
-        /// IME mode change request
-
-        MODECHANGE = 0x1F,
-
-
-        /// SPACEBAR
-
-        SPACE = 0x20,
-
-
-        /// PAGE UP key
-
-        PRIOR = 0x21,
-        PGUP = 0x21,
-
-
-        /// PAGE DOWN key
-
-        NEXT = 0x22,
-        PGDWN = 0x22,
-
-
-        /// END key
-
-        END = 0x23,
-
-
-        /// HOME key
-
-        HOME = 0x24,
-
-
-        /// LEFT ARROW key
-
-        LEFT = 0x25,
-
-
-        /// UP ARROW key
-
-        UP = 0x26,
-
-
-        /// RIGHT ARROW key
-
-        RIGHT = 0x27,
-
-
-        /// DOWN ARROW key
-
-        DOWN = 0x28,
-
-
-        /// SELECT key
-
-        SELECT = 0x29,
-
-
-        /// PRINT key
-
-        PRINT = 0x2A,
-
-
-        /// EXECUTE key
-
-        EXECUTE = 0x2B,
-
-
-        /// PRINT SCREEN key
-
-        SNAPSHOT = 0x2C,
-        PRNTSCRN = 0x2C,
-
-
-        /// INS key
-
-        INSERT = 0x2D,
-
-
-        /// DEL key
-
-        DELETE = 0x2E,
-
-
-        /// HELP key
-
-        HELP = 0x2F,
-
-
-        /// 0 key
-
-        VK_0 = 0x30,
-
-
-        /// 1 key
-
-        VK_1 = 0x31,
-
-
-        /// 2 key
-
-        VK_2 = 0x32,
-
-
-        /// 3 key
-
-        VK_3 = 0x33,
-
-
-        /// 4 key
-
-        VK_4 = 0x34,
-
-
-        /// 5 key
-
-        VK_5 = 0x35,
-
-
-        /// 6 key
-
-        VK_6 = 0x36,
-
-
-        /// 7 key
-
-        VK_7 = 0x37,
-
-
-        /// 8 key
-
-        VK_8 = 0x38,
-
-
-        /// 9 key
-
-        VK_9 = 0x39,
-
-        //
-        // 0x3A - 0x40 : Udefined
-        //
-
-
-        /// A key
-
-        VK_A = 0x41,
-
-
-        /// B key
-
-        VK_B = 0x42,
-
-
-        /// C key
-
-        VK_C = 0x43,
-
-
-        /// D key
-
-        VK_D = 0x44,
-
-
-        /// E key
-
-        VK_E = 0x45,
-
-
-        /// F key
-
-        VK_F = 0x46,
-
-
-        /// G key
-
-        VK_G = 0x47,
-
-
-        /// H key
-
-        VK_H = 0x48,
-
-
-        /// I key
-
-        VK_I = 0x49,
-
-
-        /// J key
-
-        VK_J = 0x4A,
-
-
-        /// K key
-
-        VK_K = 0x4B,
-
-
-        /// L key
-
-        VK_L = 0x4C,
-
-
-        /// M key
-
-        VK_M = 0x4D,
-
-
-        /// N key
-
-        VK_N = 0x4E,
-
-
-        /// O key
-
-        VK_O = 0x4F,
-
-
-        /// P key
-
-        VK_P = 0x50,
-
-
-        /// Q key
-
-        VK_Q = 0x51,
-
-
-        /// R key
-
-        VK_R = 0x52,
-
-
-        /// S key
-
-        VK_S = 0x53,
-
-
-        /// T key
-
-        VK_T = 0x54,
-
-
-        /// U key
-
-        VK_U = 0x55,
-
-
-        /// V key
-
-        VK_V = 0x56,
-
-
-        /// W key
-
-        VK_W = 0x57,
-
-
-        /// X key
-
-        VK_X = 0x58,
-
-
-        /// Y key
-
-        VK_Y = 0x59,
-
-
-        /// Z key
-
-        VK_Z = 0x5A,
-
-
-        /// Left Windows key (Microsoft Natural keyboard)
-
-        LWIN = 0x5B,
-
-
-        /// Right Windows key (Natural keyboard)
-
-        RWIN = 0x5C,
-
-
-        /// Applications key (Natural keyboard)
-
-        APPS = 0x5D,
-
-        // 0x5E : reserved
-
-
-        /// Computer Sleep key
-
-        SLEEP = 0x5F,
-
-
-        /// Numeric keypad 0 key
-
-        NUMPAD0 = 0x60,
-
-
-        /// Numeric keypad 1 key
-
-        NUMPAD1 = 0x61,
-
-
-        /// Numeric keypad 2 key
-
-        NUMPAD2 = 0x62,
-
-
-        /// Numeric keypad 3 key
-
-        NUMPAD3 = 0x63,
-
-
-        /// Numeric keypad 4 key
-
-        NUMPAD4 = 0x64,
-
-
-        /// Numeric keypad 5 key
-
-        NUMPAD5 = 0x65,
-
-
-        /// Numeric keypad 6 key
-
-        NUMPAD6 = 0x66,
-
-
-        /// Numeric keypad 7 key
-
-        NUMPAD7 = 0x67,
-
-
-        /// Numeric keypad 8 key
-
-        NUMPAD8 = 0x68,
-
-
-        /// Numeric keypad 9 key
-
-        NUMPAD9 = 0x69,
-
-
-        /// Multiply key
-
-        MULTIPLY = 0x6A,
-
-
-        /// Add key
-
-        ADD = 0x6B,
-
-
-        /// Separator key
-
-        SEPARATOR = 0x6C,
-
-
-        /// Subtract key
-
-        SUBTRACT = 0x6D,
-
-
-        /// Decimal key
-
-        DECIMAL = 0x6E,
-
-
-        /// Divide key
-
-        DIVIDE = 0x6F,
-
-
-        /// F1 key
-
-        F1 = 0x70,
-
-
-        /// F2 key
-
-        F2 = 0x71,
-
-
-        /// F3 key
-
-        F3 = 0x72,
-
-
-        /// F4 key
-
-        F4 = 0x73,
-
-
-        /// F5 key
-
-        F5 = 0x74,
-
-
-        /// F6 key
-
-        F6 = 0x75,
-
-
-        /// F7 key
-
-        F7 = 0x76,
-
-
-        /// F8 key
-
-        F8 = 0x77,
-
-
-        /// F9 key
-
-        F9 = 0x78,
-
-
-        /// F10 key
-
-        F10 = 0x79,
-
-
-        /// F11 key
-
-        F11 = 0x7A,
-
-
-        /// F12 key
-
-        F12 = 0x7B,
-
-
-        /// F13 key
-
-        F13 = 0x7C,
-
-
-        /// F14 key
-
-        F14 = 0x7D,
-
-
-        /// F15 key
-
-        F15 = 0x7E,
-
-
-        /// F16 key
-
-        F16 = 0x7F,
-
-
-        /// F17 key
-
-        F17 = 0x80,
-
-
-        /// F18 key
-
-        F18 = 0x81,
-
-
-        /// F19 key
-
-        F19 = 0x82,
-
-
-        /// F20 key
-
-        F20 = 0x83,
-
-
-        /// F21 key
-
-        F21 = 0x84,
-
-
-        /// F22 key
-
-        F22 = 0x85,
-
-
-        /// F23 key
-
-        F23 = 0x86,
-
-
-        /// F24 key
-
-        F24 = 0x87,
-
-        //
-        // 0x88 - 0x8F : Unassigned
-        //
-
-
-        /// NUM LOCK key
-
-        NUMLOCK = 0x90,
-
-
-        /// SCROLL LOCK key
-
-        SCROLL = 0x91,
-
-        // 0x92 - 0x96 : OEM Specific
-
-        // 0x97 - 0x9F : Unassigned
-
-        //
-        // L* & R* - left and right Alt, Ctrl and Shift virtual keys.
-        // Used only as parameters to GetAsyncKeyState() and GetKeyState().
-        // No other API or message will distinguish left and right keys in this way.
-        //
-
-
-        /// Left SHIFT key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        LSHIFT = 0xA0,
-
-
-        /// Right SHIFT key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        RSHIFT = 0xA1,
-
-
-        /// Left CONTROL key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        LCONTROL = 0xA2,
-
-
-        /// Right CONTROL key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        RCONTROL = 0xA3,
-
-
-        /// Left MENU key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        LMENU = 0xA4,
-
-
-        /// Right MENU key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
-
-        RMENU = 0xA5,
-        ALTGR = 0xA5,
-
-
-        /// Windows 2000/XP: Browser Back key
-
-        BROWSER_BACK = 0xA6,
-
-
-        /// Windows 2000/XP: Browser Forward key
-
-        BROWSER_FORWARD = 0xA7,
-
-
-        /// Windows 2000/XP: Browser Refresh key
-
-        BROWSER_REFRESH = 0xA8,
-
-
-        /// Windows 2000/XP: Browser Stop key
-
-        BROWSER_STOP = 0xA9,
-
-
-        /// Windows 2000/XP: Browser Search key
-
-        BROWSER_SEARCH = 0xAA,
-
-
-        /// Windows 2000/XP: Browser Favorites key
-
-        BROWSER_FAVORITES = 0xAB,
-
-
-        /// Windows 2000/XP: Browser Start and Home key
-
-        BROWSER_HOME = 0xAC,
-
-
-        /// Windows 2000/XP: Volume Mute key
-
-        VOLUME_MUTE = 0xAD,
-
-
-        /// Windows 2000/XP: Volume Down key
-
-        VOLUME_DOWN = 0xAE,
-
-
-        /// Windows 2000/XP: Volume Up key
-
-        VOLUME_UP = 0xAF,
-
-
-        /// Windows 2000/XP: Next Track key
-
-        MEDIA_NEXT_TRACK = 0xB0,
-
-
-        /// Windows 2000/XP: Previous Track key
-
-        MEDIA_PREV_TRACK = 0xB1,
-
-
-        /// Windows 2000/XP: Stop Media key
-
-        MEDIA_STOP = 0xB2,
-
-
-        /// Windows 2000/XP: Play/Pause Media key
-
-        MEDIA_PLAY_PAUSE = 0xB3,
-
-
-        /// Windows 2000/XP: Start Mail key
-
-        LAUNCH_MAIL = 0xB4,
-
-
-        /// Windows 2000/XP: Select Media key
-
-        LAUNCH_MEDIA_SELECT = 0xB5,
-
-
-        /// Windows 2000/XP: Start Application 1 key
-
-        LAUNCH_APP1 = 0xB6,
-
-
-        /// Windows 2000/XP: Start Application 2 key
-
-        LAUNCH_APP2 = 0xB7,
-
-        //
-        // 0xB8 - 0xB9 : Reserved
-        //
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the ';:' key 
-
-        OEM_1 = 0xBA,
-
-
-        /// Windows 2000/XP: For any country/region, the '+' key
-
-        OEM_PLUS = 0xBB,
-
-
-        /// Windows 2000/XP: For any country/region, the ',' key
-
-        OEM_COMMA = 0xBC,
-
-
-        /// Windows 2000/XP: For any country/region, the '-' key
-
-        OEM_MINUS = 0xBD,
-
-
-        /// Windows 2000/XP: For any country/region, the '.' key
-
-        OEM_PERIOD = 0xBE,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '/?' key 
-
-        OEM_2 = 0xBF,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '`~' key 
-
-        OEM_3 = 0xC0,
-
-        //
-        // 0xC1 - 0xD7 : Reserved
-        //
-
-        //
-        // 0xD8 - 0xDA : Unassigned
-        //
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '[{' key
-
-        OEM_4 = 0xDB,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '\|' key
-
-        OEM_5 = 0xDC,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the ']}' key
-
-        OEM_6 = 0xDD,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the 'single-quote/double-quote' key
-
-        OEM_7 = 0xDE,
-
-
-        /// Used for miscellaneous characters; it can vary by keyboard.
-
-        OEM_8 = 0xDF,
-
-        //
-        // 0xE0 : Reserved
-        //
-
-        //
-        // 0xE1 : OEM Specific
-        //
-
-
-        /// Windows 2000/XP: Either the angle bracket key or the backslash key on the RT 102-key keyboard
-
-        OEM_102 = 0xE2,
-
-        //
-        // (0xE3-E4) : OEM specific
-        //
-
-
-        /// Windows 95/98/Me, Windows NT 4.0, Windows 2000/XP: IME PROCESS key
-
-        PROCESSKEY = 0xE5,
-
-        //
-        // 0xE6 : OEM specific
-        //
-
-
-        /// Windows 2000/XP: Used to pass Unicode characters as if they were keystrokes. The PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in KEYBDINPUT, SendInput, WM_KEYDOWN, and WM_KEYUP
-
-        PACKET = 0xE7,
-
-        //
-        // 0xE8 : Unassigned
-        //
-
-        //
-        // 0xE9-F5 : OEM specific
-        //
-
-
-        /// Attn key
-
-        ATTN = 0xF6,
-
-
-        /// CrSel key
-
-        CRSEL = 0xF7,
-
-
-        /// ExSel key
-
-        EXSEL = 0xF8,
-
-
-        /// Erase EOF key
-
-        EREOF = 0xF9,
-
-
-        /// Play key
-
-        PLAY = 0xFA,
-
-
-        /// Zoom key
-
-        ZOOM = 0xFB,
-
-
-        /// Reserved
-
-        NONAME = 0xFC,
-
-
-        /// PA1 key
-
-        PA1 = 0xFD,
-
-
-        /// Clear key
-
-        OEM_CLEAR = 0xFE,
+LBUTTON = 0x01,             // Left mouse button
+RBUTTON = 0x02,             // Right mouse button
+CANCEL = 0x03,              // Control-break processing
+MBUTTON = 0x04,             // Middle mouse button (three-button mouse) - NOT contiguous with LBUTTON and RBUTTON
+XBUTTON1 = 0x05,            // Windows 2000/XP: X1 mouse button - NOT contiguous with LBUTTON and RBUTTON
+XBUTTON2 = 0x06,            // Windows 2000/XP: X2 mouse button - NOT contiguous with LBUTTON and RBUTTON
+
+// 0x07 : Undefined
+
+BACK = 0x08,                // BACKSPACE key
+TAB = 0x09,                 // TAB key
+
+// 0x0A - 0x0B : Reserved
+
+CLEAR = 0x0C,               // CLEAR key
+RETURN = 0x0D,              // ENTER key
+
+// 0x0E - 0x0F : Undefined
+
+SHIFT = 0x10,               // SHIFT key
+CONTROL = 0x11,             // CTRL key
+MENU = 0x12,                // ALT key
+ALT = 0x12,
+PAUSE = 0x13,               // PAUSE key
+CAPITAL = 0x14,             // CAPS LOCK key
+KANA = 0x15,                // Input Method Editor (IME) Kana mode
+HANGEUL = 0x15,             // IME Hanguel mode (maintained for compatibility; use HANGUL)
+HANGUL = 0x15,              // IME Hangul mode
+
+// 0x16 : Undefined
+
+JUNJA = 0x17,               // IME Junja mode
+FINAL = 0x18,               // IME final mode
+HANJA = 0x19,               // IME Hanja mode
+KANJI = 0x19,               // IME Kanji mode
+
+// 0x1A : Undefined
+
+ESCAPE = 0x1B,              // ESC key
+CONVERT = 0x1C,             // IME convert
+NONCONVERT = 0x1D,          // IME nonconvert
+ACCEPT = 0x1E,              // IME accept
+MODECHANGE = 0x1F,          // IME mode change request
+SPACE = 0x20,               // SPACEBAR
+PRIOR = 0x21,               // PAGE UP key
+PGUP = 0x21,
+NEXT = 0x22,                // PAGE DOWN key
+PGDWN = 0x22,
+END = 0x23,                 // END key
+HOME = 0x24,                // HOME key
+LEFT = 0x25,                // LEFT ARROW key
+UP = 0x26,                  // UP ARROW key
+RIGHT = 0x27,               // RIGHT ARROW key
+DOWN = 0x28,                // DOWN ARROW key
+SELECT = 0x29,              // SELECT key
+PRINT = 0x2A,               // PRINT key
+EXECUTE = 0x2B,             // EXECUTE key
+SNAPSHOT = 0x2C,            // PRINT SCREEN key
+PRNTSCRN = 0x2C,
+INSERT = 0x2D,              // INS key
+DELETE = 0x2E,              // DEL key
+HELP = 0x2F,                // HELP key
+VK_0 = 0x30,                // 0 key
+VK_1 = 0x31,                // 1 key
+VK_2 = 0x32,                // 2 key
+VK_3 = 0x33,                // 3 key
+VK_4 = 0x34,                // 4 key
+VK_5 = 0x35,                // 5 key
+VK_6 = 0x36,                // 6 key
+VK_7 = 0x37,                // 7 key
+VK_8 = 0x38,                // 8 key
+VK_9 = 0x39,                // 9 key
+
+// 0x3A - 0x40 : Undefined
+
+VK_A = 0x41,                // A key
+VK_B = 0x42,                // B key
+VK_C = 0x43,                // C key
+VK_D = 0x44,                // D key
+VK_E = 0x45,                // E key
+VK_F = 0x46,                // F key
+VK_G = 0x47,                // G key
+VK_H = 0x48,                // H key
+VK_I = 0x49,                // I key
+VK_J = 0x4A,                // J key
+VK_K = 0x4B,                // K key
+VK_L = 0x4C,                // L key
+VK_M = 0x4D,                // M key
+VK_N = 0x4E,                // N key
+VK_O = 0x4F,                // O key
+VK_P = 0x50,                // P key
+VK_Q = 0x51,                // Q key
+VK_R = 0x52,                // R key
+VK_S = 0x53,                // S key
+VK_T = 0x54,                // T key
+VK_U = 0x55,                // U key
+VK_V = 0x56,                // V key
+VK_W = 0x57,                // W key
+VK_X = 0x58,                // X key
+VK_Y = 0x59,                // Y key
+VK_Z = 0x5A,                // Z key
+LWIN = 0x5B,                // Left Windows key (Microsoft Natural keyboard)
+RWIN = 0x5C,                // Right Windows key (Natural keyboard)
+APPS = 0x5D,                // Applications key (Natural keyboard)
+
+// 0x5E : reserved
+
+SLEEP = 0x5F,               // Computer Sleep key
+NUMPAD0 = 0x60,             // Numeric keypad 0 key
+NUMPAD1 = 0x61,             // Numeric keypad 1 key
+NUMPAD2 = 0x62,             // Numeric keypad 2 key
+NUMPAD3 = 0x63,             // Numeric keypad 3 key
+NUMPAD4 = 0x64,             // Numeric keypad 4 key
+NUMPAD5 = 0x65,             // Numeric keypad 5 key
+NUMPAD6 = 0x66,             // Numeric keypad 6 key
+NUMPAD7 = 0x67,             // Numeric keypad 7 key
+NUMPAD8 = 0x68,             // Numeric keypad 8 key
+NUMPAD9 = 0x69,             // Numeric keypad 9 key
+MULTIPLY = 0x6A,            // Multiply key
+ADD = 0x6B,                 // Add key
+SEPARATOR = 0x6C,           // Separator key
+SUBTRACT = 0x6D,            // Subtract key
+DECIMAL = 0x6E,             // Decimal key
+DIVIDE = 0x6F,              // Divide key
+F1 = 0x70,                  // F1 key
+F2 = 0x71,                  // F2 key
+F3 = 0x72,                  // F3 key
+F4 = 0x73,                  // F4 key
+F5 = 0x74,                  // F5 key
+F6 = 0x75,                  // F6 key
+F7 = 0x76,                  // F7 key
+F8 = 0x77,                  // F8 key
+F9 = 0x78,                  // F9 key
+F10 = 0x79,                 // F10 key
+F11 = 0x7A,                 // F11 key
+F12 = 0x7B,                 // F12 key
+F13 = 0x7C,                 // F13 key
+F14 = 0x7D,                 // F14 key
+F15 = 0x7E,                 // F15 key
+F16 = 0x7F,                 // F16 key
+F17 = 0x80,                 // F17 key
+F18 = 0x81,                 // F18 key
+F19 = 0x82,                 // F19 key
+F20 = 0x83,                 // F20 key
+F21 = 0x84,                 // F21 key
+F22 = 0x85,                 // F22 key
+F23 = 0x86,                 // F23 key
+F24 = 0x87,                 // F24 key
+
+// 0x88 - 0x8F : Unassigned
+
+NUMLOCK = 0x90,             // NUM LOCK key
+SCROLL = 0x91,              // SCROLL LOCK key
+
+// 0x92 - 0x96 : OEM Specific
+// 0x97 - 0x9F : Unassigned
+
+// L* & R* - left and right Alt, Ctrl and Shift virtual keys.
+// Used only as parameters to GetAsyncKeyState() and GetKeyState().
+// No other API or message will distinguish left and right keys in this way.
+
+LSHIFT = 0xA0,              // Left SHIFT key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+RSHIFT = 0xA1,              // Right SHIFT key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+LCONTROL = 0xA2,            // Left CONTROL key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+RCONTROL = 0xA3,            // Right CONTROL key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+LMENU = 0xA4,               // Left MENU key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+RMENU = 0xA5,               // Right MENU key - Used only as parameters to GetAsyncKeyState() and GetKeyState()
+ALTGR = 0xA5,
+BROWSER_BACK = 0xA6,        // Windows 2000/XP: Browser Back key
+BROWSER_FORWARD = 0xA7,     // Windows 2000/XP: Browser Forward key
+BROWSER_REFRESH = 0xA8,     // Windows 2000/XP: Browser Refresh key
+BROWSER_STOP = 0xA9,        // Windows 2000/XP: Browser Stop key
+BROWSER_SEARCH = 0xAA,      // Windows 2000/XP: Browser Search key
+BROWSER_FAVORITES = 0xAB,   // Windows 2000/XP: Browser Favorites key
+BROWSER_HOME = 0xAC,        // Windows 2000/XP: Browser Start and Home key
+VOLUME_MUTE = 0xAD,         // Windows 2000/XP: Volume Mute key
+VOLUME_DOWN = 0xAE,         // Windows 2000/XP: Volume Down key
+VOLUME_UP = 0xAF,           // Windows 2000/XP: Volume Up key
+MEDIA_NEXT_TRACK = 0xB0,    // Windows 2000/XP: Next Track key
+MEDIA_PREV_TRACK = 0xB1,    // Windows 2000/XP: Previous Track key
+MEDIA_STOP = 0xB2,          // Windows 2000/XP: Stop Media key
+MEDIA_PLAY_PAUSE = 0xB3,    // Windows 2000/XP: Play/Pause Media key
+LAUNCH_MAIL = 0xB4,         // Windows 2000/XP: Start Mail key
+LAUNCH_MEDIA_SELECT = 0xB5, // Windows 2000/XP: Select Media key
+LAUNCH_APP1 = 0xB6,         // Windows 2000/XP: Start Application 1 key
+LAUNCH_APP2 = 0xB7,         // Windows 2000/XP: Start Application 2 key
+
+// 0xB8 - 0xB9 : Reserved
+
+OEM_1 = 0xBA,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the ';:' key 
+OEM_PLUS = 0xBB,            // Windows 2000/XP: For any country/region, the '+' key
+OEM_COMMA = 0xBC,           // Windows 2000/XP: For any country/region, the ',' key
+OEM_MINUS = 0xBD,           // Windows 2000/XP: For any country/region, the '-' key
+OEM_PERIOD = 0xBE,          // Windows 2000/XP: For any country/region, the '.' key
+OEM_2 = 0xBF,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '/?' key 
+OEM_3 = 0xC0,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '`~' key
+
+// 0xC1 - 0xD7 : Reserved
+// 0xD8 - 0xDA : Unassigned
+
+OEM_4 = 0xDB,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '[{' key
+OEM_5 = 0xDC,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the '\|' key
+OEM_6 = 0xDD,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the ']}' key
+OEM_7 = 0xDE,               // Used for miscellaneous characters; it can vary by keyboard. Windows 2000/XP: For the US standard keyboard, the 'single-quote/double-quote' key
+OEM_8 = 0xDF,               // Used for miscellaneous characters; it can vary by keyboard.
+
+// 0xE0 : Reserved
+// 0xE1 : OEM Specific
+
+OEM_102 = 0xE2,             // Windows 2000/XP: Either the angle bracket key or the backslash key on the RT 102-key keyboard
+
+// (0xE3-E4) : OEM specific
+
+PROCESSKEY = 0xE5,          // Windows 95/98/Me, Windows NT 4.0, Windows 2000/XP: IME PROCESS key
+
+// 0xE6 : OEM specific
+
+PACKET = 0xE7,              // Windows 2000/XP: Used to pass Unicode characters as if they were keystrokes. The PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in KEYBDINPUT, SendInput, WM_KEYDOWN, and WM_KEYUP
+
+// 0xE8 : Unassigned
+// 0xE9-F5 : OEM specific
+
+ATTN = 0xF6,                // Attn key
+CRSEL = 0xF7,               // CrSel key
+EXSEL = 0xF8,               // ExSel key
+EREOF = 0xF9,               // Erase EOF key
+PLAY = 0xFA,                // Play key
+ZOOM = 0xFB,                // Zoom key
+NONAME = 0xFC,              // Reserved
+PA1 = 0xFD,                 // PA1 key
+OEM_CLEAR = 0xFE,           // Clear key
